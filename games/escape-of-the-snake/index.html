@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Escape of the Snake</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div id="difficulty">
+
+<h1>
+🌕 ESCAPE OF THE SNAKE
+</h1>
+
+<p>
+SELECT DIFFICULTY
+</p>
+
+
+<button onclick="startGame('easy')">
+🟢 EASY
+</button>
+
+<button onclick="startGame('normal')">
+🟡 NORMAL
+</button>
+
+<button onclick="startGame('hard')">
+🔴 HARD
+</button>
+
+
+</div>
+
+
+
+
+<div id="snow"></div>
+
+
+
+<div class="game-ui">
+
+
+<h1>
+🐍 Escape of the Snake
+</h1>
+
+
+<div class="stats">
+
+
+<span>
+❤️ Health:
+<b id="health">3</b>
+</span>
+
+
+<span>
+⏱️ Time:
+<b id="time">60</b>
+</span>
+
+
+<span>
+🏆 Record:
+<b id="record">--</b>
+</span>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div id="world">
+
+
+<div id="moon">
+🌕
+</div>
+
+
+<div id="fog"></div>
+
+
+<div id="light"></div>
+
+
+
+<div id="player">
+🧍
+</div>
+
+
+<div id="snake">
+🐍
+</div>
+
+
+<div id="door">
+🚪
+</div>
+
+
+
+
+<div class="tree t1">🌲</div>
+<div class="tree t2">🌲</div>
+<div class="tree t3">🌲</div>
+<div class="tree t4">🌲</div>
+<div class="tree t5">🌲</div>
+<div class="tree t6">🌲</div>
+
+
+
+</div>
+
+
+
+
+<div id="message">
+
+<h2 id="result"></h2>
+
+
+<button onclick="restartGame()">
+PLAY AGAIN
+</button>
+
+
+</div>
+
+
+
+<script src="game.js"></script>
+
+
+</body>
+
+</html>
