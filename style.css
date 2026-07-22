@@ -460,4 +460,144 @@ opacity:1;
 
 
 }
+/* NIGHTFALL CARD 🌑 */
 
+.nightfall{
+
+    border:2px solid #00ffff;
+
+    box-shadow:
+
+    0 0 25px #00ffff,
+
+    0 0 50px #001aff;
+
+}
+
+
+
+.nightfall h3{
+
+    color:#7fffff;
+
+    text-shadow:
+
+    0 0 10px cyan;
+
+}
+
+
+
+/* GAME BUTTONS 🎮 */
+
+.card button{
+
+
+    padding:15px 35px;
+
+
+    background:#080014;
+
+
+    color:white;
+
+
+    border:2px solid #9b59ff;
+
+
+    border-radius:15px;
+
+
+    cursor:pointer;
+
+
+    font-size:18px;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+.card button:hover{
+
+
+    background:#9b59ff;
+
+
+    color:white;
+
+
+    box-shadow:
+
+    0 0 25px #9b59ff;
+
+
+    transform:scale(1.05);
+
+
+}
+
+
+
+/* NIGHTFALL BUTTON */
+
+.nightfall button{
+
+
+    border-color:#00ffff;
+
+
+}
+
+
+
+.nightfall button:hover{
+
+
+    background:#00ffff;
+
+
+    color:black;
+
+
+    box-shadow:
+
+    0 0 30px cyan;
+
+
+}
+
+
+
+/* MOBILE 📱 */
+
+@media(max-width:700px){
+
+
+header h1{
+
+font-size:40px;
+
+}
+
+
+
+section{
+
+padding:40px 5%;
+
+}
+
+
+.card{
+
+padding:20px;
+
+}
+
+
+
+}
